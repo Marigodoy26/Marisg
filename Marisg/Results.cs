@@ -1,6 +1,6 @@
 namespace Marisg;
 
-public class
+public class Results
 {
     public int temp{get; set;}
 
@@ -10,9 +10,7 @@ public class
 
     public double rain{get;set;}
 
-    public int himidity{get;set;}
-
-    public string sunrise{get;set;}
+    public int umidity{get;set;}
 
     public string sunset{get;set;}
 
