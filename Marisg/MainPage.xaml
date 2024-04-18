@@ -4,12 +4,13 @@
              x:Class="Marisg.MainPage">
 
     <Grid
-     ColumnSpacing="2"
-     RowSpacing="2">
+     ColumnSpacing="8"
+     RowSpacing="8">
 
      <Grid.RowDefinitions>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="130"/>
+        <RowDefinition Height="130"/>
         <RowDefinition Height="*"/>
      </Grid.RowDefinitions>
 
@@ -21,15 +22,35 @@
 
      <Image Source="diaensolarado.png"
             Grid.ColumnSpan="3"
-            Grid.RowSpan="3"/>
-
+            Grid.RowSpan="4"/>
 
         <Frame 
           CornerRadius="15"
-          BackgroundColor="Blue"
-          Grid.Row="0"
-          Grid.Column="0">
-          </Grid>
+          BorderColor="Black"  
+          BackgroundColor="#55ffffff"
+          Grid.Row="1"
+          Grid.RowSpan="2"
+          Grid.Column="0"
+          Padding="0">
+
+      <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
 
 
+         <Label   Text="23 C"
+                  Fontsize="20"
+                  Grid.Row="0"
+                  TextColor="Black"/>
+         
+
+
+
+      </Grid>
+      </Frame>
+
+   </Grid>
 </ContentPage>
