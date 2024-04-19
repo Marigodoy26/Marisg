@@ -9,13 +9,13 @@
 
      <Grid.RowDefinitions>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="130"/>
+        <RowDefinition Height="50"/>
         <RowDefinition Height="130"/>
         <RowDefinition Height="*"/>
      </Grid.RowDefinitions>
 
      <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="140"/>
         <ColumnDefinition Width="*"/>
         <ColumnDefinition Width="*"/>
      </Grid.ColumnDefinitions>
@@ -26,6 +26,7 @@
 
         <Frame 
           CornerRadius="15"
+          Margin="9,5"
           BorderColor="Black"  
           BackgroundColor="#55ffffff"
           Grid.Row="1"
@@ -40,11 +41,39 @@
         <RowDefinition Height="*"/>
       </Grid.RowDefinitions>
 
+       <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+     </Grid.ColumnDefinitions>
 
-         <Label   Text="23 C"
-                  Fontsize="20"
-                  Grid.Row="0"
-                  TextColor="Black"/>
+         <Label   
+          Text="23°C"
+          Margin="7,0"
+          FontSize="37"
+          FontFamily="Bold"
+          Grid.Row="0"
+          Grid.Column="0"
+          TextColor="Black"
+          HorizontalTextAlignment="Center"/>
+
+         <Label   
+          Text="Apucarana,PR"
+          Margin="7,0"
+          FontSize="15"
+          FontFamily="Bold"
+          Grid.Row="2"
+          Grid.Column="0"
+          TextColor="Black"
+           HorizontalTextAlignment="Center"/>
+
+          <Label   
+          Text="Tempo"
+          Margin="7,0"
+          FontSize="15"
+          FontFamily="Bold"
+          Grid.Row="2"
+          Grid.Column="0"
+          TextColor="Black"
+           HorizontalTextAlignment="Center"/>
          
 
 

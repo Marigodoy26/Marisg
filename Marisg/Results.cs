@@ -27,4 +27,8 @@ public class Results
     public string sunrise{get;set;}
 
     public string codition_code{get;set;}
+
+    public double cloudiness{get;set;}
+
+    public string wind_cardinal{get;set;}
 }
